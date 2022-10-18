@@ -4,7 +4,13 @@
   https_port 443
 }
 
-http://localhost.localdomain
+http://localhost.localdomain {
+  root * /mnt/github/
+  file_server browse
+}
 
-root * /mnt/github/
-file_server browse
+https://localhost.localdomain {
+  tls /etc/ssl/certs/self-signed/cert.pem /etc/ssl/certs/self-signed/key.pem
+  root * /mnt/github/
+  file_server browse
+}

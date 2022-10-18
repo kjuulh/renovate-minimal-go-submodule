@@ -9,6 +9,17 @@
   "extends": [
     "config:base"
   ],
+  "hostRules": [
+    {
+      "matchHost": "localhost.localdomain",
+      "hostType": "github"
+    }
+  ],
+  "customEnvVariables": {
+    "GOPRIVATE": "localhost.localdomain,localhost.localdomain/kjuulh/",
+    "GOINSECURE": "localhost.localdomain,localhost.localdomain/kjuulh/",
+    "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+  },
   "packageRules": [
     {
       "description": [
