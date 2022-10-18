@@ -1,0 +1,10 @@
+{
+  debug
+  http_port 80
+  https_port 443
+}
+
+http://localhost
+
+root * /mnt/github/
+file_server browse
