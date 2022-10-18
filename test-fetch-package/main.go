@@ -1,8 +1,8 @@
 package main
 
 import (
-	_ "privategitrepo/localhost/renovate-minimal-go-submodule"
-	_ "privategitrepo/renovate-minimal-go-submodule/submodule"
+	_ "0.0.0.0/renovate-minimal-go-submodule"
+	_ "0.0.0.0/renovate-minimal-go-submodule/submodule"
 )
 
 func main() {
