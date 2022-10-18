@@ -1,8 +1,7 @@
 package main
 
 import (
-	_ "localhost.localdomain/renovate-minimal-go-submodule"
-	_ "localhost.localdomain/renovate-minimal-go-submodule/submodule"
+	_ "localhost.localdomain/kjuulh/renovate-minimal-go-submodule/submodule-with-user"
 )
 
 func main() {
