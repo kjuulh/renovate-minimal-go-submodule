@@ -11,8 +11,14 @@
   ],
   "hostRules": [
     {
-      "matchHost": "localhost.localdomain",
-      "hostType": "github"
+      "matchHost": "https://localhost.localdomain",
+      "hostType": "go",
+      "enabled": true
+    },
+    {
+      "matchHost": "http://localhost.localdomain",
+      "hostType": "go",
+      "enabled": true
     }
   ],
   "customEnvVariables": {

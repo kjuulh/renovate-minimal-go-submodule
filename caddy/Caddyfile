@@ -6,11 +6,15 @@
 
 http://localhost.localdomain {
   root * /src/caddy/mnt/github/
-  file_server browse
+  file_server {
+    disable_canonical_uris
+  }
 }
 
 https://localhost.localdomain {
   tls /src/cert/generated/cert.pem /src/cert/generated/key.pem
   root * /src/caddy/mnt/github/
-  file_server browse
+  file_server {
+    disable_canonical_uris
+  }
 }

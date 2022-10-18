@@ -4,3 +4,4 @@ generated/
 .git/
 README.md
 .env
+output/
