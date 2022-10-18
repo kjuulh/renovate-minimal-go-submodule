@@ -1,0 +1,5 @@
+node_modules/
+generated/
+.github/
+.git/
+README.md
