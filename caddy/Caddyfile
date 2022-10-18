@@ -5,12 +5,12 @@
 }
 
 http://localhost.localdomain {
-  root * /mnt/github/
+  root * /src/caddy/mnt/github/
   file_server browse
 }
 
 https://localhost.localdomain {
-  tls /etc/ssl/certs/self-signed/cert.pem /etc/ssl/certs/self-signed/key.pem
-  root * /mnt/github/
+  tls /src/cert/generated/cert.pem /src/cert/generated/key.pem
+  root * /src/caddy/mnt/github/
   file_server browse
 }

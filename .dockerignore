@@ -3,3 +3,4 @@ generated/
 .github/
 .git/
 README.md
+.env

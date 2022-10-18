@@ -1,9 +1,13 @@
 #!/bin/bash
 
+# Install root certificates
+./mkcert --install
 
-mkcert --install
-
-rm -rf generated/
+# Cleanup generated certificates
+rm -rf generated/ || true
 mkdir -p generated/
 
-mkcert -key-file generated/key.pem -cert-file generated/cert.pem localhost.localdomain
+# Create keys from ca
+./mkcert &&
+  -key-file generated/key.pem &&
+  -cert-file generated/cert.pem localhost.localdomain
