@@ -1,4 +1,6 @@
 localhost.localdomain/renovate-minimal-go-submodule v0.0.0-20221018100114-a30c483f99b2 h1:cOtfiLY3enGm+dPwklAV+IW7/6yN5TAdOoiiB67oCrM=
 localhost.localdomain/renovate-minimal-go-submodule v0.0.0-20221018100114-a30c483f99b2/go.mod h1:ZLAKNw9bSc/X6egjXVs/cIzdtKP9oQh+5WlaI7V+gWs=
+localhost.localdomain/renovate-minimal-go-submodule v1.0.4 h1:HXz1+Mx4Bg60bmeUxd7UVHh4KkEEHTBe7fIGpzo5Sdo=
+localhost.localdomain/renovate-minimal-go-submodule v1.0.4/go.mod h1:+JOck16euN+e3fUmJcHLfwQnfL5+UoYOuOd3LepzQTY=
 localhost.localdomain/renovate-minimal-go-submodule/submodule v0.0.0-20221018100114-a30c483f99b2 h1:ze1N3vxrgsqnKpWS33mAmID8xh0snUuIu2/+7uqCFBA=
 localhost.localdomain/renovate-minimal-go-submodule/submodule v0.0.0-20221018100114-a30c483f99b2/go.mod h1:QRLf7yoB7/drlLGPfw2PKfBXOXutZY4WsFs/HoMG2iY=
