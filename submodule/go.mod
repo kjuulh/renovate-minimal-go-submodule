@@ -1,3 +1,3 @@
 module localhost.localdomain/renovate-minimal-go-submodule/submodule
 
-go 1.18
+go 1.19

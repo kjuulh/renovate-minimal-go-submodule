@@ -1,6 +1,6 @@
 module test-fetch-package
 
-go 1.18
+go 1.19
 
 require (
 	localhost.localdomain/renovate-minimal-go-submodule v1.0.4
