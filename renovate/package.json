@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/kjuulh/renovate-minimal-go-submodule#readme",
   "dependencies": {
-    "renovate": "^32.240.3"
+    "renovate": "^37.0.0"
   }
 }
